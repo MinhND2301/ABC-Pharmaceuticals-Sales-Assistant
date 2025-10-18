@@ -10,9 +10,10 @@ Sales recommendation system combining Long Chau pharmacy data, purchase history,
 
 ### Setup
 1. Install dependencies: `pip install -r requirements.txt`
-2. Create `.env` file with: `GEMINI_API_KEY=your_api_key_here`
+2. Go to https://aistudio.google.com/app/api-keys to get GEMINI_API_KEY
+3. Create `.env` file with: `GEMINI_API_KEY=your_api_key_here`
 
-### Run Pipeline
+### Run Pipeline (Optional)
 ```bash
 # 1. Crawl product data (~10-15 min)
 python longchau_crawler.py
@@ -25,10 +26,12 @@ python gemini_product_extraction.py
 
 # 4. Standardize data (~2-3 min)
 python standardize_data.py
-
-# 5. Launch web app
+```
+### Run Application
+```bash
 streamlit run app.py
 ```
+
 
 Access at: `http://localhost:8501`
 
