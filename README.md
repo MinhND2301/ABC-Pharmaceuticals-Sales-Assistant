@@ -1,6 +1,6 @@
 # ABC Pharmaceuticals Sales Assistant
 
-AI-powered sales recommendation system combining Long Chau pharmacy data, purchase history, and promotions.
+Sales recommendation system combining Long Chau pharmacy data, purchase history, and promotions.
 
 ## 🚀 Quick Start
 
